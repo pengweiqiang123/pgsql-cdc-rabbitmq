@@ -1,0 +1,16 @@
+package com.example.cdcrabbitmqpublisher;
+
+import org.springframework.amqp.rabbit.annotation.EnableRabbit;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@EnableRabbit
+public class CdcRabbitmqPublisherApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.
+                run(CdcRabbitmqPublisherApplication.class, args);
+    }
+
+}

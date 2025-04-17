@@ -1,0 +1,16 @@
+com\example\cdcrabbitmqpublisher\CdcRabbitmqPublisherApplication.class
+com\example\cdcrabbitmqpublisher\deserialize\PostgreSQLDeserialization.class
+com\example\cdcrabbitmqpublisher\model\DataChangeInfo.class
+com\example\cdcrabbitmqpublisher\cache\MigrationCache.class
+com\example\cdcrabbitmqpublisher\listener\PostgreSqlListener.class
+com\example\cdcrabbitmqpublisher\service\sqlGenerator\AbstractSqlGenerator.class
+com\example\cdcrabbitmqpublisher\service\impl\TableDataConvertServiceImpl.class
+com\example\cdcrabbitmqpublisher\service\TableDataConvertService.class
+com\example\cdcrabbitmqpublisher\service\sqlGenerator\DeleteSqlGeneratorServiceImpl.class
+com\example\cdcrabbitmqpublisher\sink\DataChangeSink.class
+com\example\cdcrabbitmqpublisher\service\sqlGenerator\InsertSqlGeneratorServiceImpl.class
+com\example\cdcrabbitmqpublisher\service\sqlGenerator\SqlGeneratorService.class
+com\example\cdcrabbitmqpublisher\util\ApplicationContextUtil.class
+com\example\cdcrabbitmqpublisher\util\JSONObjectUtils.class
+com\example\cdcrabbitmqpublisher\service\impl\ConfirmService.class
+com\example\cdcrabbitmqpublisher\service\sqlGenerator\UpdateSqlGeneratorServiceImpl.class
